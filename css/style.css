@@ -8,6 +8,24 @@ body, html{
     color: black;
 }
 
+header{
+    min-height: 10%;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 10px 0px 20px;
+}
+
+.logo{
+    height: 15%;
+    width: 20%;
+}
+
+.pages{
+    align-items:flex-end;
+    display: flex;
+    flex-direction: row;
+}
+
 .pimg1{
     background-image: url('../img/index-top.jpg');
     min-height: 80%;
@@ -58,19 +76,27 @@ h2{
     padding: 20px;
 }
 
+.behind-grid{
+    background-image: url('../img/cloud-bottom.jpg') ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 #nine-grid{
     margin: 0px auto;
-    min-height: 80%;
+    height: 80%;
     width: 65%;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-template-rows: repeat(autofill, minmax(250px, 1fr));
+    grid-template-rows: repeat(autofill, minmax(200px, 1fr));
 }
 
 
 #box-1, #box-2, #box-3, #box-4,#box-5,#box-6,#box-7,#box-8,#box-9 {
-    min-width: 200px;
-    min-height: 200px;
+    min-width: 100px;
+    min-height: 250px;
 } 
 
 #box-1 {
@@ -116,6 +142,12 @@ h2{
 #box-9{
     background-image: url('https://images.pexels.com/photos/2306779/pexels-photo-2306779.jpeg?cs=srgb&dl=pexels-rosemary-ketchum-2306779.jpg&fm=jpg');
     background-size: cover;
+}
+
+.footer-box{
+    background-color: black;
+    width: 100%;
+    min-height: 20%;
 }
 
 
