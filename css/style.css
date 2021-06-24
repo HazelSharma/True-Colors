@@ -27,7 +27,7 @@ body, html{
 
 .section{
     text-align: left;
-    padding: 50px 80px;
+    padding: 50px 250px;
 }
 
 .section-yellow{
@@ -55,6 +55,55 @@ h2{
 .ptext .border, .quote{
     background-color: white;
     padding: 20px;
+}
+
+.nine-grid{
+    margin: 0px auto;
+    background-color: grey;
+    height: 80%;
+    width: 65%;
+}
+
+#box-1 {
+    background-color: #c1292eff;
+    height: 26.67%;
+    width: 21.67%;
+}
+
+#box-3 {
+    background-color: #ffdd4aff;
+    height: 26.67%;
+    width: 21.67%;
+}
+
+#box-4 {
+    background-color: #fe9000ff;
+    height: 26.67%;
+    width: 21.67%;
+}
+
+#box-5 {
+    background-color: #44af69ff;
+    height: 26.67%;
+    width: 21.67%;
+}
+
+#box-6 {
+    background-color: #3b429fff;
+    height: 26.67%;
+    width: 21.67%;
+}
+
+#box-7 {
+    background-color: #60216eff;
+    height: 26.67%;
+    width: 21.67%;
+}
+
+#box-8 {
+    background-color: #c1292eff;
+    height: 26.67%;
+    width: 21.67%;
 }
 
 /* Allows you to stop the parallax effect for smaller mobile screen sizes*/
