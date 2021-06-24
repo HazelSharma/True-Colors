@@ -12,18 +12,34 @@ header{
     min-height: 10%;
     display: flex;
     flex-direction: row;
-    padding: 15px 10px 0px 20px;
+    padding: 20px 0px 0px 40px;
+    justify-content: space-between;
 }
 
 .logo{
-    height: 15%;
+    height: 100%;
     width: 20%;
+    min-height: 3em;
+    min-width: 15em;
+    padding-right: 5em;
 }
 
-.pages{
-    align-items:flex-end;
-    display: flex;
-    flex-direction: row;
+nav ul{
+    list-style: none;
+    margin: 1.5em 0em 0em 1em;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    text-transform: uppercase;
+    margin: 2em 3em;
+    color: black;
+    text-decoration-line: none;
+    font-weight: 600;
+    letter-spacing: 0.5em;
 }
 
 .pimg1{
@@ -156,4 +172,9 @@ h2{
     .pimg1{
         background-attachment: scroll;
     }
+
+    nav{
+        visibility: hidden;
+    }
 }
+
