@@ -1,5 +1,5 @@
 # TrueColors
-A website created to provide information and resources to the general public about the LGBTQ+ Community and Pride Month, using only HTML and CSS. 
+A website landing page template created in honor of the LGBTQ+ Community and Pride Month, using only HTML and CSS. It can be filled with information, links and resources to spread awarness.
 
 **Topic:** Pride Month and LGBTQ+
 
