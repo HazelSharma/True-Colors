@@ -73,6 +73,13 @@ nav a{
     padding-bottom: 90px;
 }
 
+.button-accent{
+    background-color: cornflowerblue;
+    padding: 5px;
+    color: cornsilk;
+    text-decoration-line: none;
+}
+
 h2{
     font-family: 'Shrikhand', cursive;
     letter-spacing: 2px;
